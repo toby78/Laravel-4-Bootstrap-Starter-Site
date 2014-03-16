@@ -38,8 +38,8 @@ return array(
             $collection->directory('assets/js', function($collection)
             {
                 $collection->javascript('http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js');
-                $collection->add('bootstrap/bootstrap.js');
-                $collection->requireDirectory('../../../vendor/twbs/bootstrap/js');
+              //  $collection->add('bootstrap/bootstrap.js');
+              //  $collection->requireDirectory('../../../vendor/twbs/bootstrap/js');
             })->apply('JsMin');
         },
 
